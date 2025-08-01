@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fiche produit – Picard Distributeurs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="bg-picard-gray text-neutral-text font-sans min-h-screen">
+
+  <header class="bg-picard-blue text-white p-4 shadow">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Picard Distributeurs</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="index.html" class="hover:underline">Accueil</a>
+        <a href="#" class="hover:underline">Historique</a>
+        <a href="#" class="hover:underline">Administration</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6 mt-10 bg-white rounded-xl shadow-card">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <img src="https://via.placeholder.com/600x400" alt="Lasagnes aux légumes" class="rounded-xl w-full object-cover">
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold text-picard-dark mb-1">Lasagnes aux légumes</h2>
+        <p class="text-sm text-gray-500 mb-3">Réf. #123456 · 350g · Surgelé</p>
+        <p class="text-base leading-relaxed mb-4">
+          Un grand classique revisité en version végétarienne ! Nos lasagnes aux légumes sont préparées avec soin à partir de courgettes, aubergines, tomates et poivrons, le tout nappé d'une sauce béchamel onctueuse.
+        </p>
+
+        <div class="flex gap-2 flex-wrap mb-4">
+          <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">Végétarien</span>
+          <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full">Nutri-Score B</span>
+          <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Sans conservateur</span>
+        </div>
+
+        <div class="flex items-center justify-between mt-6">
+          <span class="text-2xl font-bold text-picard-blue">5,90 €</span>
+          <button class="bg-picard-dark text-white px-6 py-2 rounded-xl hover:bg-picard-blue transition">
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-12">
+      <h3 class="text-xl font-semibold mb-4 text-picard-dark">Ingrédients</h3>
+      <p class="text-sm text-gray-700 mb-6">
+        Légumes grillés (courgettes, aubergines, poivrons), semoule de blé dur, lait écrémé, sauce tomate,
+        mozzarella, huile d’olive, oignons, ail, sel, poivre, épices. <strong>Allergènes :</strong> lait, blé (gluten).
+      </p>
+
+      <h3 class="text-xl font-semibold mb-4 text-picard-dark">Valeurs nutritionnelles (pour 100g)</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm text-gray-800 mb-8">
+        <div class="bg-picard-light rounded-lg p-3 text-center">
+          <p class="font-semibold">Énergie</p>
+          <p>154 kcal</p>
+        </div>
+        <div class="bg-picard-light rounded-lg p-3 text-center">
+          <p class="font-semibold">Matières grasses</p>
+          <p>6.2 g</p>
+        </div>
+        <div class="bg-picard-light rounded-lg p-3 text-center">
+          <p class="font-semibold">Glucides</p>
+          <p>15.4 g</p>
+        </div>
+        <div class="bg-picard-light rounded-lg p-3 text-center">
+          <p class="font-semibold">Protéines</p>
+          <p>6.8 g</p>
+        </div>
+      </div>
+
+      <h3 class="text-xl font-semibold mb-4 text-picard-dark">Conseils de préparation</h3>
+      <ul class="list-disc list-inside text-sm text-gray-700 mb-6">
+        <li>Au micro-ondes : 6 min à 800W directement dans le contenant</li>
+        <li>Au four : 20 min à 180°C dans un plat adapté</li>
+        <li>Ne pas recongeler après décongélation</li>
+      </ul>
+
+      <h3 class="text-xl font-semibold mb-4 text-picard-dark">Conservation</h3>
+      <p class="text-sm text-gray-700 mb-8">
+        À conserver à -18°C jusqu'à la date indiquée. Ne pas recongeler un produit décongelé.
+      </p>
+
+      <h3 class="text-xl font-semibold mb-4 text-picard-dark">Avis clients (4,5/5)</h3>
+      <div class="space-y-4">
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <p class="text-sm font-semibold text-picard-dark">Marie P. – ⭐⭐⭐⭐⭐</p>
+          <p class="text-sm text-gray-700">Très bon produit, pratique et équilibré. Je le prends souvent pour mes pauses du midi.</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg">
+          <p class="text-sm font-semibold text-picard-dark">Lucas R. – ⭐⭐⭐⭐☆</p>
+          <p class="text-sm text-gray-700">Un peu léger pour une grosse faim, mais super bon goût et rapide à préparer.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 py-6">
+    © 2025 Picard Distributeurs – Tous droits réservés
+  </footer>
+</body>
+</html>
