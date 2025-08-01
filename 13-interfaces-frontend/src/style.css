@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-picard-blue: #009EE0;
+  --color-picard-light: #E5F6FB;
+  --color-picard-dark: #006A8D;
+  --color-picard-gray: #F5F5F5;
+  --color-neutral-text: #1F2937;
+  
+  --font-family-sans: "Inter", sans-serif;
+  
+  --border-radius-xl: 1rem;
+  --border-radius-2xl: 1.5rem;
+  
+  --box-shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

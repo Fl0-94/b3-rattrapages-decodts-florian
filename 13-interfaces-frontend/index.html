@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picard Distributeurs - Accueil</title>
+  <link rel="stylesheet" href="./src/style.css">
 </head>
-<body>
-    
+<body class="bg-picard-gray text-neutral-text font-sans">
+ 
+  <header class="bg-picard-blue text-white p-4">
+    <div class="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
+      <h1 class="text-2xl font-bold">Picard Distributeurs</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#" class="hover:underline">Accueil</a>
+        <a href="#" class="hover:underline">Historique</a>
+        <a href="#" class="hover:underline">Administration</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="max-w-7xl mx-auto px-4 py-10">
+    <section>
+      <h2 class="text-3xl font-semibold mb-6">Découvrez nos produits disponibles en distributeur</h2>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+       
+        <div class="shadow-card rounded-2xl bg-white p-4">
+          <img src="https://via.placeholder.com/600x400" alt="Lasagnes aux légumes" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Lasagnes aux légumes</h3>
+            <p class="text-sm text-gray-600 mt-1">Un plat savoureux et équilibré, prêt en quelques minutes.</p>
+            <p class="mt-3 font-bold text-blue-600">5,90 €</p>
+          </div>
+        </div>
+
+        <div class="shadow-card rounded-2xl bg-white p-4">
+          <img src="https://via.placeholder.com/600x400" alt="Poêlée asiatique" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Poêlée asiatique</h3>
+            <p class="text-sm text-gray-600 mt-1">Un mélange gourmand de légumes et nouilles sautées.</p>
+            <p class="mt-3 font-bold text-blue-600">4,70 €</p>
+          </div>
+        </div>
+
+        <div class="shadow-card rounded-2xl bg-white p-4">
+          <img src="https://via.placeholder.com/600x400" alt="Glace vanille bio" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Glace vanille bio</h3>
+            <p class="text-sm text-gray-600 mt-1">Onctueuse et fabriquée avec des ingrédients naturels.</p>
+            <p class="mt-3 font-bold text-blue-600">3,50 €</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <footer class="bg-gray-100 text-center py-4 text-sm text-gray-500">
+    © 2025 Picard Distributeurs - Tous droits réservés
+  </footer>
 </body>
 </html>
