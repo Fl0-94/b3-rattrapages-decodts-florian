@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "modern-css-reset": "^1.4.0",
     "tailwindcss": "^4.1.11"
   }
 }
