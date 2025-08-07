@@ -27,3 +27,7 @@ npm run dev
 
 # Le projet sera accessible sur http://localhost:5173
 ```
+
+### Lien Vidéo 
+
+https://youtu.be/o_7T-wp2WTI?si=B29Gr2Zw8m86WPko
